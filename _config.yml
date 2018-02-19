@@ -1,0 +1,16 @@
+name: Bloggin and coding
+url: https://travelerspb.github.io
+title: Short notes about Web engineering and Machine Learning
+email: travelerspb@gmail.com
+description: "Nikolay Belov"
+github_username:  travelerspb
+permalink: :year/:month/:day/:title.html
+
+paginate: 10
+paginate_path: "p/:num"
+excerpt_separator: <!-- >>> -->
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
